@@ -7,7 +7,7 @@ User Story: I can push a button to toggle between Fahrenheit and Celsius. */
 body {
   text-align: center;
   font-family: Arial;
-  background-color: black;
+  background-color: #000;
   color: white;
 }
 
