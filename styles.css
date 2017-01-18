@@ -1,0 +1,33 @@
+/* User Story: I can see the weather in my current location.
+
+User Story: I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
+
+User Story: I can push a button to toggle between Fahrenheit and Celsius. */
+
+body {
+  text-align: center;
+  font-family: Arial;
+  background-color: black;
+  color: white;
+}
+
+div {
+  font-size: 2rem;
+  margin-bottom: 100px;
+}
+
+.btn {
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+  background: #1986d6;
+}
+.btn:hover {
+  color: black;
+  transform: scale(1.1);
+}
+
+a {
+
+  color: white;
+}

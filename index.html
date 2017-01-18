@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Current Weather App
+    </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js"></script>
+
+</head>
+<body>
+<h1>Current Weather</h1>
+
+<div>
+  <span class="date">Mon Jan 09</span>
+  <span class="time">1:26 PM</span>
+  <p><span class="city">City</span></p>
+  <p><span class="summary">Clear</span></p>
+  <figure class="icons">
+    <canvas id="icon" width="64" height="64"></canvas>
+  </figure>
+  <p><span class="temp actual">28.2ºF</span></p>
+  <p>Feels Like: <span class="temp feels">16.4ºF</span></p>
+  <p>Min: <span class="temp min">10.3ºF</span>
+     &nbsp; &nbsp;Max: <span class="temp max">34.5ºF</span></p>
+  <button class="btn toggleTemp">ºC / ºF</button>
+</div>
+
+<a href="https://darksky.net/poweredby/">Powered by Dark Sky</a>
+
+
+<script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+</html>
