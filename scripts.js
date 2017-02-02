@@ -5,7 +5,7 @@ function setData(pos) {
   var b = pos.coords.longitude;
   var reqUrl = makeUrl(a, b);
 
-  $.ajax({
+  $.get({
     url: reqUrl,
     dataType:"jsonp",
     success: function(data){
